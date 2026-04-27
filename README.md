@@ -78,7 +78,7 @@ AFK teleport command
 ## Build Instructions (for developers)
 
 ```bash
-./gradlew build
+./gradlew shadowJar
 ```
 
 ---
@@ -87,5 +87,5 @@ AFK teleport command
 This plugin uses the following libraries for development:
 
 - Foundation™ by MineAcademy: https://github.com/kangarko/Foundation
-- ACF (Aikar’s Command Framework): https://github.com/aikar/commands
+- ACF: https://github.com/aikar/commands
 
