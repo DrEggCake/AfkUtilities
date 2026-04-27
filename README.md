@@ -6,11 +6,9 @@ A small AFK utility plugin which adds missing AFK features for other plugins.
 ---
 
 ## Features
-- Automatically teleports players to a configurable location after X seconds of AFK
+- Automatically teleports players to a configurable location after X seconds of AFK (in config.yml)
 - Per-group AFK time override using LuckPerms
 - Prevents teleporting players inside configured AFK regions (WorldGuard support)
-- Configurable AFK region protection
-- Lightweight admin control system
 
 ---
 
@@ -63,9 +61,9 @@ AFK teleport command
 ---
 
 ## Configuration
-- config.yml controls AFK timing and behavior
+- config.yml controls teleport coordinates, duration before teleporting, and the world guard region
 - WorldGuard region name can be configured
-- AFK location is set via `/afkutilities setlocation`
+- AFK location is set via `/afkutilities setlocation` or in config.yml
 
 ---
 
