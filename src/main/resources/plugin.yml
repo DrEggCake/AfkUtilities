@@ -1,0 +1,7 @@
+name: AfkUtilities
+version: '1.0'
+main: me.dreggcake.afkUtilities.AfkUtilities
+api-version: '1.21'
+load: STARTUP
+authors: [ DrEggCake ]
+description: Small Utility for the afk plugin.
