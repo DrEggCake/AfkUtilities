@@ -78,7 +78,7 @@ AFK teleport command
 ## Build Instructions (for developers)
 
 ```bash
-./gradlew shadowJar
+./gradlew build
 ```
 
 ---
