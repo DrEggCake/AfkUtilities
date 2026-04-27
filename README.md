@@ -79,3 +79,13 @@ AFK teleport command
 
 ```bash
 ./gradlew build
+```
+
+---
+## Credits
+
+This plugin uses the following libraries for development:
+
+- Foundation™ by MineAcademy: https://github.com/kangarko/Foundation
+- ACF (Aikar’s Command Framework): https://github.com/aikar/commands
+
