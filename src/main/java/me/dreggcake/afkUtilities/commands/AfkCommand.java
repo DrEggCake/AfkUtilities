@@ -4,7 +4,6 @@ import co.aikar.commands.BaseCommand;
 import co.aikar.commands.annotation.CommandAlias;
 import co.aikar.commands.annotation.Default;
 import co.aikar.commands.annotation.Optional;
-import me.dreggcake.afkUtilities.AfkUtilities;
 import me.dreggcake.afkUtilities.config.AfkConfigYaml;
 import org.bukkit.Bukkit;
 import org.bukkit.Location;
@@ -16,8 +15,8 @@ public class AfkCommand extends BaseCommand {
 
     @Default
     public void onAfk(Player sender, @Optional String targetName) {
-        if(!canTeleport()){
-            Common.tell(sender,"&c Failed, please contact an administrator");
+        if (!canTeleport()) {
+            Common.tell(sender, "&c Failed, please contact an administrator");
             return;
         }
 
@@ -42,7 +41,7 @@ public class AfkCommand extends BaseCommand {
     }
 
 
-    private boolean canTeleport(){
+    private boolean canTeleport() {
         Location location = AfkConfigYaml.getAfkConfigYaml().getAfkLocation();
         return location.getX() != 0 && location.getY() != 0 && location.getZ() != 0 && !location.getWorld().getName().isEmpty();
     }

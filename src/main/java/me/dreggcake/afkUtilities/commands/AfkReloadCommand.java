@@ -3,16 +3,13 @@ package me.dreggcake.afkUtilities.commands;
 import co.aikar.commands.BaseCommand;
 import co.aikar.commands.annotation.CommandAlias;
 import co.aikar.commands.annotation.CommandPermission;
-import co.aikar.commands.annotation.Default;
 import co.aikar.commands.annotation.Subcommand;
-import me.dreggcake.afkUtilities.AfkUtilities;
 import me.dreggcake.afkUtilities.config.AfkConfigYaml;
 import me.dreggcake.afkUtilities.config.AfkLangYaml;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 import org.mineacademy.fo.Common;
 import org.mineacademy.fo.settings.YamlStaticConfig;
-import org.yaml.snakeyaml.Yaml;
 
 @CommandAlias("afkutilities")
 @CommandPermission("afkutilities.admin")

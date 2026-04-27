@@ -11,7 +11,6 @@ import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerJoinEvent;
 import org.bukkit.event.player.PlayerMoveEvent;
 import org.mineacademy.fo.Common;
-import org.mineacademy.fo.Messenger;
 
 import java.util.*;
 
